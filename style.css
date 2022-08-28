@@ -1,0 +1,60 @@
+#header {
+    display: flex;
+    justify-content: center;
+    background-color: #65a9a6;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Marcellus', serif;
+    color: #e3dfd7;
+}
+
+#btnContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+#btn {
+    margin-top: 30px;
+    background: #e3dfd7;
+    padding: 25px;
+    border-radius: 10px;
+    border: none;
+}
+
+#btn:hover {
+    background: linear-gradient(to right, #e3dfd7, #cedbe6 );
+    box-shadow: 0px 0px 15px #F5F0BB;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Marcellus', serif;
+    font-size: 20px;
+    color: #726754;
+    font-weight: bolder;
+}
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+}
+
+@media all and (max-width:500px) {
+    #btnContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #btn {
+       width: 30%;
+    }
+}
+
+
+
